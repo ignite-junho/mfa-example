@@ -1,7 +1,7 @@
 import type { NextPage } from "next";
 import styles from "../styles/Home.module.css";
 import dynamic from "next/dynamic";
-import RemoteButtonType from "../@mf-types/app2/Button";
+import RemoteButtonType from "../@mf-types/reactRemote/Button";
 
 const ReactRemoteButton = dynamic(() => import("reactRemote/Button"), {
   ssr: false,
